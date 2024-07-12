@@ -82,33 +82,3 @@ for name in namesData:
 artistDf = pd.DataFrame(artist_data)
 
 artistDf.to_csv('Artists_Data.csv')
-
-
-'''artistsData = {
-    "SpotifyID" : [],
-    "ArtistName": [],
-    "Followers" : [],
-    "Popularity" : [],
-    "ImageURL" : [],
-    "URI" : [],
-    "DateTime": []
-}
-
-
-artistsData['SpotifyID'].append(artistDetails['id'])
-artistsData['ArtistName'].append(artistDetails['name'])
-artistsData['Followers'].append(artistDetails['followers']['total'])
-artistsData['Popularity'].append(artistDetails['popularity'])
-artistsData['ImageURL'].append(artistDetails['images'][0]['url'])
-artistsData['URI'].append(artistDetails['uri'])
-artistsData['DateTime'].append(dt.datetime.now())
-
-
-'''
-
-
-
-
-
-
-
